@@ -1,11 +1,11 @@
 {
   "Version": "1.0.2",
   "ReleaseNotes": "Update 1.0.2",
-  "UrlUpdate": "https://raw.githubusercontent.com/demoraes1/demoraesvpn/main/UrlUpdate",
-  "Sms": "https://raw.githubusercontent.com/demoraes1/demoraesvpn/main/UrlSms",
+  "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
+  "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
   "UrlContato": "https://t.me/Demoraes666",
-  "UrlTermos": "https://raw.githubusercontent.com/demoraes1/demoraesvpn/main/termos.html",
+  "UrlTermos": "https://demoraes1.github.io/demoraesvpn/termos.html",
   "Udp": [
     {
       "Porta": "7300"
