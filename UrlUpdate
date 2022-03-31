@@ -8,6 +8,12 @@
   "UrlTermos": "https://demoraes1.github.io/demoraesvpn/termos.html",
   "Udp": [
     {
+      "Porta": "7100"
+    },
+    {
+      "Porta": "7200"
+    },
+    {
       "Porta": "7300"
     },
     {
@@ -25,23 +31,23 @@
   ],
   "Servers": [
     {
-      "Name": "TESTE UPDATE | PLUS",
+      "Name": "Premium | PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "premium01.conecta4g.xyz",
+      "ServerIP": "br.demoraesvpn.xyz",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "PREMIUM 02 | PLUS",
+      "Name": "Teste grátis | PLUS",
       "TYPE": "free",
       "FLAG": "br.png",
-      "ServerIP": "premium02.conecta4g.xyz",
+      "ServerIP": "br.pepeto.tech",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "teste006",
+      "USER": "teste001",
       "PASS": "1234"
     }
   ],
@@ -61,13 +67,13 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "104.18.7.80",
+      "TlsIP": "104.16.18.94",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM PROXY 01",
+      "Name": "TIM PROXY",
       "FLAG": "tim",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -77,14 +83,24 @@
       "Info": "Proxy"
     },
     {
-      "Name": "CLARO SSL 04",
+      "Name": "TIM PRÉ",
+      "FLAG": "tim",
+      "Payload": "GET sni://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO Sem promoção",
       "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.waze.com",
+      "Payload": "GET sni://cdn.jsdelivr.net HTTP/1.1[crlf]Host: br.demoraesvpn.xyz[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "cdn.jsdelivr.net",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "Tlsws"
     },
     {
       "Name": "CLARO SSL 05",
