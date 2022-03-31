@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.1",
-  "ReleaseNotes": "",
+  "Version": "1.0.2",
+  "ReleaseNotes": "att claro",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
@@ -66,9 +66,9 @@
     {
       "Name": "CLARO TLS",
       "FLAG": "claro",
-      "Payload": "GET sni://cdn.jsdelivr.net HTTP/1.1[crlf]Host: [app_host][crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "cdn.jsdelivr.net",
-      "TlsIP": "cdn.jsdelivr.net",
+      "Payload": "GET ssl://parceirosclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "parceirosclaro.com.br",
+      "TlsIP": "parceirosclaro.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
