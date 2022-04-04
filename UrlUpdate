@@ -1,15 +1,17 @@
 {
-  "Version": "1.0.2",
-  "ReleaseNotes": "atualização de contato",
-  "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
-  "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
+  "Version": "1.0.1",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://demoraes1.github.io/UrlUpdate",
+  "Sms": "https://demoraes1.github.io/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
-  "UrlContato": "https://t.me/Demoraes666",
-  "UrlTermos": "https://demoraes1.github.io/demoraesvpn/termos.html",
+  "UrlContato": "https://wa.me/message/DQPKVP2JU25NE1",
+  "UrlTermos": "https://demoraes1.github.io/termos.html",
+  "CheckUser": "true",
+  "FormatCheck": "ddmmyyyy",
   "Udp": [
     {
       "Porta": "7100"
-    },
+    },  
     {
       "Porta": "7200"
     },
@@ -18,29 +20,29 @@
     },
     {
       "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
     }
   ],
   "Servers": [
     {
-      "Name": "RIO GRANDE DO NORTE",
+      "Name": "ORACLE | SP",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "br.demoraesvpn.xyz",
+      "ServerIP": "vpn.frogvpn.tech",
+      "CheckUser": "http://179.96.3.141:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
-    {
-      "Name": "SAO PAULO",
-      "TYPE": "free",
-      "FLAG": "br.png",
-      "ServerIP": "br.pepeto.tech",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "teste001",
-      "PASS": "1234"
-    }
   ],
   "Networks": [
     {
