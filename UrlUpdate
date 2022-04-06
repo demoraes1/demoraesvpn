@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.1",
-  "ReleaseNotes": "",
+  "Version": "1.0.2",
+  "ReleaseNotes": "Corrigido problema na porta badvpn",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
@@ -24,12 +24,6 @@
     {
       "Porta": "7500"
     },
-    {
-      "Porta": "7600"
-    },
-    {
-      "Porta": "7700"
-    }
   ],
   "Servers": [
     {
