@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "Aumento da capacidade de nosso servidor e mostrador de validade ao usuário",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
@@ -27,10 +27,10 @@
   ],
   "Servers": [
     {
-      "Name": "ORACLE | SP",
+      "Name": "QNAX | SP",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "vps.frogvpn.tech",
+      "ServerIP": "vpn.frogvpn.tech",
       "CheckUser": "http://209.14.71.49:666/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
