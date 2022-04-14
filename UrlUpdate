@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.9",
+  "Version": "1.1.0",
   "ReleaseNotes": "Lançamento oficial na Playstore",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
@@ -35,7 +35,7 @@
   ],
   "Servers": [
     {
-      "Name": "ORACLE x86 | SP",
+      "Name": "QNAX x86 | SP",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vpn.frogvpn.tech",
