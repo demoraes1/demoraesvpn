@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.1",
-  "ReleaseNotes": "Atualização da operadora Claro",
+  "Version": "1.1.2",
+  "ReleaseNotes": "Adição de novos meios de conexão para vivo e tim",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
@@ -58,19 +58,19 @@
     },
     {
       "Name": "Oracle arm2 | SP",
-      "TYPE": "free",
+      "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vps.frogvpn.tech",
       "CheckUser": "http://193.123.105.46:666/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "teste",
-      "PASS": "1234"
+      "USER": "",
+      "PASS": ""
     }
   ],
   "Networks": [
     {
-      "Name": "VIVO TLS",
+      "Name": "VIVO TLS 01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
@@ -79,12 +79,42 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+	{
+      "Name": "VIVO TLS 02",
+      "FLAG": "vivo",
+      "Payload": "GET cdn://celular.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+	{
+      "Name": "VIVO TLS 03",
+      "FLAG": "vivo",
+      "Payload": "GET ws://cdi.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "TlsIP": "cdi.vivo.com.br",
+      "SNI": "cdi.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
     {
-      "Name": "TIM TLS",
+      "Name": "TIM TLS 01",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+	{
+      "Name": "TIM TLS 02",
+      "FLAG": "tim",
+      "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -92,7 +122,7 @@
     {
       "Name": "CLARO TLS",
       "FLAG": "claro",
-      "Payload": "GET wss://content.akross.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host: [host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Sec-WebSocket-Extensions: superspeed[lf][lf]",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host: [host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Sec-WebSocket-Extensions: superspeed[lf][lf]",
       "SNI": "content.akross.com.br",
       "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
