@@ -1,10 +1,10 @@
 {
-  "Version": "1.1.4",
-  "ReleaseNotes": "Remoção da operadora oi",
+  "Version": "1.1.5",
+  "ReleaseNotes": "ativação da whatsapp de suporte técnico",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
-  "UrlContato": "https://demoraes1.github.io/demoraesvpn/Suporte.html",
+  "UrlContato": "https://wa.me/message/DQPKVP2JU25NE1",
   "UrlTermos": "https://demoraes1.github.io/demoraesvpn/termos.html",
   "CheckUser": "true",
   "Udp": [
