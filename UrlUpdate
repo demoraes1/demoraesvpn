@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.5",
-  "ReleaseNotes": "ativação da whatsapp de suporte técnico",
+  "Version": "1.1.6",
+  "ReleaseNotes": "Reativação da operadora Claro",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
@@ -122,8 +122,8 @@
     {
       "Name": "CLARO TLS",
       "FLAG": "claro",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host: [host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Sec-WebSocket-Extensions: superspeed[lf][lf]",
-      "SNI": "no.descomplica.com.br",
+      "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host: [host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Sec-WebSocket-Extensions: superspeed[lf][lf]",
+      "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
