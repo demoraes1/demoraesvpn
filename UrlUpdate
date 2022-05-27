@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.6",
-  "ReleaseNotes": "Reativação da operadora Claro",
+  "Version": "1.1.8",
+  "ReleaseNotes": "Melhoria de conexão na vivo e Tim, reativação da oi e manutenção na claro",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
@@ -55,25 +55,14 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    },
-    {
-      "Name": "Oracle arm2 | SP",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "vps.frogvpn.tech",
-      "CheckUser": "http://193.123.105.46:666/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
     }
   ],
   "Networks": [
     {
       "Name": "VIVO TLS 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
+      "Payload": "GET cdn://dev.pagseguro.uol.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "dev.pagseguro.uol.com.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
       "ProxyPort": "",
@@ -84,7 +73,7 @@
       "FLAG": "vivo",
       "Payload": "GET cdn://celular.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "celular.vivo.com.br",
-      "TlsIP": "celular.vivo.com.br",
+      "TlsIP": "104.18.6.80",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -92,9 +81,9 @@
 	{
       "Name": "VIVO TLS 03",
       "FLAG": "vivo",
-      "Payload": "GET ws://cdi.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "TlsIP": "cdi.vivo.com.br",
-      "SNI": "cdi.vivo.com.br",
+      "Payload": "GET ws://gedoc.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "TlsIP": "gedoc.vivo.com.br",
+      "SNI": "gedoc.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -102,9 +91,9 @@
     {
       "Name": "TIM TLS 01",
       "FLAG": "tim",
-      "Payload": "GET ws://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "104.16.18.94",
+      "Payload": "GET ws://dev.pagseguro.uol.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "dev.pagseguro.uol.com.br",
+      "TlsIP": "104.16.19.94",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -114,17 +103,17 @@
       "FLAG": "tim",
       "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "static.r4you.co",
-      "TlsIP": "static.r4you.co",
+      "TlsIP": "104.16.236.16",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS",
-      "FLAG": "claro",
-      "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host: [host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Sec-WebSocket-Extensions: superspeed[lf][lf]",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Name": "OI TLS",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
