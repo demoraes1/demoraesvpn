@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.8",
-  "ReleaseNotes": "Melhoria de conexão na vivo e Tim, reativação da oi e manutenção na claro",
+  "Version": "1.1.9",
+  "ReleaseNotes": "Correção tim",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
