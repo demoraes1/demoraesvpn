@@ -1,6 +1,6 @@
 {
   "Version": "1.2.3",
-  "ReleaseNotes": "volta claro",
+  "ReleaseNotes": "Atualização de servidores",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
@@ -35,7 +35,7 @@
   ],
   "Servers": [
     {
-      "Name": "QNAX BR",
+      "Name": "QNAX (Será descontinuado) BR",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vpn.frogvpn.tech",
@@ -46,11 +46,22 @@
       "PASS": ""
     },
     {
-      "Name": "Oracle Arm BR",
+      "Name": "Oracle Arm I BR",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vpx.frogvpn.tech",
       "CheckUser": "http://193.123.118.192:666/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "Oracle Arm II BR",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "vps.frogvpn.tech",
+      "CheckUser": "http://193.123.105.46:666/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
