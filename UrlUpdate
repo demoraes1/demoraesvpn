@@ -1,6 +1,6 @@
 {
-  "Version": "1.2.2",
-  "ReleaseNotes": "manutenção de emergência",
+  "Version": "1.2.3",
+  "ReleaseNotes": "volta claro",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
@@ -51,17 +51,6 @@
       "FLAG": "br.png",
       "ServerIP": "vpx.frogvpn.tech",
       "CheckUser": "http://193.123.118.192:666/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-	{
-      "Name": "Oracle Arm2 BR",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "vps.frogvpn.tech",
-      "CheckUser": "http://193.123.105.46:666/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -150,11 +139,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM [SSL 2]",
-      "FLAG": "tim",
-      "Payload": "GET wss://beringtime.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "beringtime.com",
-      "TlsIP": "104.16.18.94",
+      "Name": "CLARO [SSL 1]",
+      "FLAG": "claro",
+      "Payload": "CONNECTION wss://No.descomplica.com.br HTTP/1.1[crlf]Host:[app_host][crlf]Connection: Upgrade, Keep-Alive, HTTP2-Settings > Upgrade: h2c [crlf]User-Agent: [ua][crlf]Upgrade: websocket, HTTP/2, HTTP/3[crlf][crlf]",
+      "SNI": "No.descomplica.com.br",
+      "TlsIP": "No.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
