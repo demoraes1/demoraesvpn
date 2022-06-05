@@ -1,6 +1,6 @@
 {
   "Version": "1.2.7",
-  "ReleaseNotes": "Correção operadora tim ssl 1",
+  "ReleaseNotes": "Melhoria de conexão em todas operadoras",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
