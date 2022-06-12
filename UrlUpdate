@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.9",
+  "Version": "1.3.0",
   "ReleaseNotes": "Central de suporte e melhorias na Tim",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
@@ -34,17 +34,6 @@
     }
   ],
   "Servers": [
-    {
-      "Name": "QNAX (Será descontinuado) BR",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "vpn.frogvpn.tech",
-      "CheckUser": "http://209.14.71.49:666/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
     {
       "Name": "Oracle Arm I BR",
       "TYPE": "premium",
