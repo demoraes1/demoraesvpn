@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.4",
+  "Version": "1.3.5",
   "ReleaseNotes": "manutenção VIVO",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
@@ -72,7 +72,7 @@
     {
       "Name": "🟣 VIVO [DIRECT 1]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: SEUDOMINIU[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.24.10.16",
