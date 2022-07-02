@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.5",
+  "Version": "1.3.6",
   "ReleaseNotes": "manutenção VIVO",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
@@ -70,14 +70,24 @@
   ],
   "Networks": [
     {
-      "Name": "🟣 VIVO [DIRECT 1]",
+      "Name": "🟣 VIVO VOLTA 🟣",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.24.10.16",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "💜 VIVO EU TE AMO 💜",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.24.10.16",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
    },
     {
       "Name": "TIM [SSL 1]",
