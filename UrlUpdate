@@ -1,6 +1,6 @@
 {
-  "Version": "1.4.1",
-  "ReleaseNotes": "manutenção VIVO",
+  "Version": "1.4.2",
+  "ReleaseNotes": "manutenção INTENSIVA 😅",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
   "EmailFeedback": "vpndemoraesinfo@gmail.com",
@@ -71,6 +71,16 @@
   "Networks": [
       {
             "Name": "💜 VIVO EASY 💜",
+            "FLAG": "vivo",
+            "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "cdnjs.cloudflare.com",
+            "TlsIP": "104.18.7.80",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+       },
+      {
+            "Name": "💜 VIVO ALEGRIA 💜",
             "FLAG": "vivo",
             "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "cdnjs.cloudflare.com",
