@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.5",
+  "Version": "1.4.6",
   "ReleaseNotes": "MANUTENÇÃO DE TODAS OPERADORAS😅",
   "UrlUpdate": "https://demoraes1.github.io/demoraesvpn/UrlUpdate",
   "Sms": "https://demoraes1.github.io/demoraesvpn/UrlSms",
@@ -35,7 +35,7 @@
   ],
   "Servers": [
     {
-      "Name": "Oracle Arm I BR",
+      "Name": "🚀 Oracle Arm I BR 🚀",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vpx.frogvpn.tech",
@@ -46,7 +46,7 @@
       "PASS": ""
     },
     {
-      "Name": "Oracle Arm II BR",
+      "Name": "⭐ Oracle Arm II BR ⭐",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vps.frogvpn.tech",
@@ -57,7 +57,7 @@
       "PASS": ""
     },
     {
-      "Name": "FROG-BOT",
+      "Name": "🔥 FROG-BOT 🔥",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vpn.frogvpn.tech",
@@ -70,7 +70,7 @@
   ],
   "Networks": [
     {
-      "Name": "🟣VIVO HBO",
+      "Name": "🟣 VIVO HBO",
       "FLAG": "vivo",
       "Payload": "GET wss://unpkg.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "unpkg.com",
@@ -80,7 +80,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO NETFLIX",
+      "Name": "🟣 VIVO NETFLIX",
       "FLAG": "vivo",
       "Payload": "GET wss://carrinho-pos-familia.vivo.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "carrinho-pos-familia.vivo.com.br",
@@ -90,7 +90,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO AMAZON",
+      "Name": "🟣 VIVO AMAZON",
       "FLAG": "vivo",
       "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "carrinho-pos-familia.vivo.com.br",
@@ -100,7 +100,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO TESLA",
+      "Name": "🟣 VIVO TESLA",
       "FLAG": "vivo",
       "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "carrinho-pos-familia.vivo.com.br",
@@ -110,7 +110,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO AZURE",
+      "Name": "🟣 VIVO AZURE",
       "FLAG": "vivo",
       "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
@@ -120,7 +120,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO DISNEY",
+      "Name": "🟣 VIVO DISNEY",
       "FLAG": "vivo",
       "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "carrinho-pos-familia.vivo.com.br",
@@ -130,7 +130,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO PRIME",
+      "Name": "🟣 VIVO PRIME",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
@@ -140,7 +140,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO STAR +",
+      "Name": "🟣 VIVO STAR +",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -290,7 +290,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔴CLARO DISPLAY",
+      "Name": "🔴 CLARO DISPLAY",
       "FLAG": "claro",
       "Payload": "GET wss://br.corp.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "br.corp.kaltura.com",
